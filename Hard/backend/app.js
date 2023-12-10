@@ -15,12 +15,6 @@ app.get('/employee', (req, res) => {
     res.json(employeeData);
   });
 
-// console.log(findEmployeeByID(782699));
-// app.get("/employee", (req, res) => {
-//     res.send(employeeData)
-// })
-
-// const employee = req.query.employee
 app.get(`/employee/:empID`, (req, res) => {
     const empID = Number(req.params.empID);
 
