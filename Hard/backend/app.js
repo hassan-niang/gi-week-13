@@ -1,6 +1,6 @@
 const path = require("path")
-import express from "express";
-import employeeData from "./employee.json" 
+const express = require("express")
+const employeeData =  require("./employee.json")
 
 
 const filePath = path
@@ -12,24 +12,22 @@ app.get("", (req, res) => {
 })
 
 app.get('/employee', (req, res) => {
-    res.send(employeeData);
+    res.json(employeeData);
   });
 
 // console.log(findEmployeeByID(782699));
-app.get("/employee", (req, res) => {
-    res.send(employeeData)
-})
+// app.get("/employee", (req, res) => {
+//     res.send(employeeData)
+// })
 
 // const employee = req.query.employee
-app.get(`/employee/:employeeID`, (req, res) => {
-    const employeeID = req.params.empID;
+app.get(`/employee/:empID`, (req, res) => {
+    const empID = Number(req.params.empID);
 
-    // Find the employee with the specified ID
     const employee = employeeData.find(
-        (employee) => employee.empID === empID
+        (emp) => emp.empID === empID
     );
 
-    // If employee is found, send their data; otherwise, send an error message
     if (employee) {
         res.json(employee);
     } else {
