@@ -1,0 +1,54 @@
+ [
+    {
+        "empID": 782699,
+        "employee": "Hassan Niang",
+        "salary": "$3000000",
+        "dep": "Management"
+    },
+    {
+        "empID": 782698,
+        "employee": "Beyonce Carter",
+        "salary": "$5",
+        "dep": "Entertainment"
+    }, {
+        "empID": 782697,
+        "employee": "Robin Fenty",
+        "salary": "$3",
+        "dep": "Entertainment"
+    }, {
+        "empID": 782696,
+        "employee": "Aubrey Graham",
+        "salary": "$0.25",
+        "dep": "Sanitation"
+    }, {
+        "empID": 782695,
+        "employee": "Jeff Bezos",
+        "salary": "$.01",
+        "dep": "Sanitation"
+    }, {
+        "empID": 782694,
+        "employee": "Onika Maraj",
+        "salary": "$1.00",
+        "dep": "Entertainment"
+    }, {
+        "empID": 782693,
+        "employee": "Jill Scott",
+        "salary": "$3000",
+        "dep": "Management"
+    }, {
+        "empID": 782692,
+        "employee": "Tyrone William Griffin Jr.",
+        "salary": "$.01",
+        "dep": "Sanitation"
+    }, {
+        "empID": 782691,
+        "employee": "Megan Pete",
+        "salary": "$1000",
+        "dep": "HR"
+    }, {
+        "empID": 782690,
+        "employee": "Jahron Brathwaite",
+        "salary": "$1000",
+        "dep": "HR"
+    }
+]
